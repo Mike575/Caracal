@@ -1,6 +1,5 @@
 FROM node:16-stretch-slim
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
-RUN echo '
+RUN echo ' \
 deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse \
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse \
 
